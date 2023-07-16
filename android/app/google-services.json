@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106316614297",
+    "project_id": "child-vaccination-system",
+    "storage_bucket": "child-vaccination-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106316614297:android:328ef0ac5ab1981b508608",
+        "android_client_info": {
+          "package_name": "com.example.child_vaccination_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106316614297-tv9ifjb2u55edme3m3cupbsbusnmdqv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj2_JLOhYArMrla4EJekVU1MVEE6wcXfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106316614297-tv9ifjb2u55edme3m3cupbsbusnmdqv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
