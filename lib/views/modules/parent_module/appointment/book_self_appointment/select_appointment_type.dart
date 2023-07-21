@@ -1,10 +1,9 @@
 import 'package:child_vaccination_system/constants/app_colors.dart';
 import 'package:child_vaccination_system/constants/app_images.dart';
-import 'package:child_vaccination_system/reusable_widgets/app_button.dart';
-import 'package:child_vaccination_system/reusable_widgets/custom_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
+import '../../../../reusable_widgets/app_button.dart';
+import '../../../../reusable_widgets/custom_appbar.dart';
 import '../book_family_appointment/book_family_appointment.dart';
 import 'book_self_appointment.dart';
 

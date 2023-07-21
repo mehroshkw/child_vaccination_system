@@ -1,15 +1,13 @@
-import 'package:child_vaccination_system/reusable_widgets/app_text.dart';
 import 'package:child_vaccination_system/views/modules/admin_module/add_hospital/add_hospital.dart';
-import 'package:child_vaccination_system/views/modules/parent_module/login_sign_up/register_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../../../../constants/app_colors.dart';
 import '../../../../constants/app_strings.dart';
+import '../../../reusable_widgets/app_button.dart';
+import '../../../reusable_widgets/app_text.dart';
+import '../../../reusable_widgets/app_textfield.dart';
+import '../../../reusable_widgets/custom_appbar.dart';
 import '../../auth_controller.dart';
-import '../../../../reusable_widgets/app_button.dart';
-import '../../../../reusable_widgets/app_textfield.dart';
-import '../../../../reusable_widgets/custom_appbar.dart';
 
 class HospitalLoginScreen extends StatefulWidget {
   static const String route = '/hospital_login_screen';

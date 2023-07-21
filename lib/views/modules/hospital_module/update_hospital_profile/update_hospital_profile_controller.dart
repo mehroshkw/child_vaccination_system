@@ -1,9 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../reusable_widgets/const_function.dart';
 import '../../../../constants/local_storage.dart';
+import '../../../reusable_widgets/const_function.dart';
 
 class UpdateHospitalProfileController extends GetxController {
   var isLoading = false.obs;

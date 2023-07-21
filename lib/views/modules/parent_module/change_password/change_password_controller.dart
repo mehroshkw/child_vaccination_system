@@ -1,9 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-
-import '../../../../reusable_widgets/const_function.dart';
 import '../../../../constants/local_storage.dart';
+import '../../../reusable_widgets/const_function.dart';
 
 class ChangePasswordController extends GetxController {
   final TextEditingController oldPassword = TextEditingController();

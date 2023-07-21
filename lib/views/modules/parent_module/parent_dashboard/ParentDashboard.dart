@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../constants/app_colors.dart';
 import '../../../../constants/local_storage.dart';
+import '../../../reusable_widgets/sub_heading.dart';
 import '../../auth_controller.dart';
-import '../../../../reusable_widgets/sub_heading.dart';
 import '../child/add_child/add_family_members.dart';
 import '../child/edit_delete_child/update_child.dart';
 

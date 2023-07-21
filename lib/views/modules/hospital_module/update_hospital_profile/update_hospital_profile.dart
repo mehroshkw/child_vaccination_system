@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../constants/app_colors.dart';
 import '../../../../constants/app_strings.dart';
-import '../../parent_module/update_parent_profile/update_parent_profile_controller.dart';
-import '../../../../reusable_widgets/app_button.dart';
-import '../../../../reusable_widgets/app_textfield.dart';
-import '../../../../reusable_widgets/custom_appbar.dart';
+import '../../../reusable_widgets/app_button.dart';
+import '../../../reusable_widgets/custom_appbar.dart';
+
 
 class UpdateHospitalProfile extends StatefulWidget {
   const UpdateHospitalProfile({Key? key}) : super(key: key);

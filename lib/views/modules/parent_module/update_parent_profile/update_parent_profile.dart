@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../constants/app_colors.dart';
 import '../../../../constants/app_strings.dart';
+import '../../../reusable_widgets/app_button.dart';
+import '../../../reusable_widgets/app_textfield.dart';
+import '../../../reusable_widgets/custom_appbar.dart';
 import 'update_parent_profile_controller.dart';
-import '../../../../reusable_widgets/app_button.dart';
-import '../../../../reusable_widgets/app_textfield.dart';
-import '../../../../reusable_widgets/custom_appbar.dart';
 import '../change_password/change_password.dart';
 
 class UpdateParentProfile extends StatelessWidget {

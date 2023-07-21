@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../constants/app_images.dart';
 import '../constants/local_storage.dart';
-import 'main_screen/main_screen.dart';
+import 'main_screen.dart';
 import 'modules/admin_module/admin_dashboard/adminDashborad.dart';
 
 class Splash extends StatefulWidget {

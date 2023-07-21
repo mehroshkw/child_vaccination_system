@@ -2,11 +2,10 @@ import 'package:child_vaccination_system/views/modules/parent_module/change_pass
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-
 import '../../../../constants/app_colors.dart';
-import '../../../../reusable_widgets/app_button.dart';
-import '../../../../reusable_widgets/app_textfield.dart';
-import '../../../../reusable_widgets/custom_appbar.dart';
+import '../../../reusable_widgets/app_button.dart';
+import '../../../reusable_widgets/app_textfield.dart';
+import '../../../reusable_widgets/custom_appbar.dart';
 
 class ChangePassword extends StatelessWidget {
   const ChangePassword({Key? key}) : super(key: key);

@@ -1,13 +1,12 @@
-import 'package:child_vaccination_system/reusable_widgets/app_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../../../constants/app_colors.dart';
 import '../../../constants/app_strings.dart';
+import '../../reusable_widgets/app_button.dart';
+import '../../reusable_widgets/app_textfield.dart';
+import '../../reusable_widgets/custom_appbar.dart';
 import '../auth_controller.dart';
-import '../../../reusable_widgets/app_button.dart';
-import '../../../reusable_widgets/app_textfield.dart';
-import '../../../reusable_widgets/custom_appbar.dart';
+
 
 class AdminLoginScreen extends StatefulWidget {
   const AdminLoginScreen({Key? key}) : super(key: key);
