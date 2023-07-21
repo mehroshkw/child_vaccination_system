@@ -1,12 +1,12 @@
 import 'dart:async';
-import 'package:child_vaccination_system/views/modules/hospital_module/hospital_dashboard.dart';
-import 'package:child_vaccination_system/views/modules/parent_module/ParentDashboard.dart';
+import 'package:child_vaccination_system/views/modules/hospital_module/hospital_dashboard/hospital_dashboard.dart';
+import 'package:child_vaccination_system/views/modules/parent_module/parent_dashboard/ParentDashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../constants/app_images.dart';
 import '../constants/local_storage.dart';
 import 'main_screen/main_screen.dart';
-import 'modules/admin_module/adminDashborad.dart';
+import 'modules/admin_module/admin_dashboard/adminDashborad.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);

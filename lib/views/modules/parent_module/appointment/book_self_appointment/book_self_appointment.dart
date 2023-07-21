@@ -1,13 +1,13 @@
-import 'package:child_vaccination_system/views/modules/parent_module/appointment/select_hospital.dart';
+import 'package:child_vaccination_system/views/modules/parent_module/appointment/book_family_appointment/select_hospital.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../controllers/book_family_appointment.dart';
-import '../../../../reusable_widgets/app_button.dart';
-import '../../../../reusable_widgets/custom_appbar.dart';
-import '../../../../reusable_widgets/progress_indicator.dart';
+import '../../../../../constants/app_colors.dart';
+import '../../../../../constants/app_strings.dart';
+import '../book_family_appointment/book_family_appointment_controller.dart';
+import '../../../../../reusable_widgets/app_button.dart';
+import '../../../../../reusable_widgets/custom_appbar.dart';
+import '../../../../../reusable_widgets/progress_indicator.dart';
 
 class BookSelfAppointmentScreen extends StatelessWidget {
   const BookSelfAppointmentScreen({Key? key}) : super(key: key);

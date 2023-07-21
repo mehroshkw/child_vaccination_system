@@ -1,24 +1,24 @@
+import 'package:child_vaccination_system/views/modules/parent_module/change_password/change_password_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../constants/app_colors.dart';
-import '../../../constants/app_strings.dart';
-import '../../../controllers/update_parent_profile_controller.dart';
-import '../../../reusable_widgets/app_button.dart';
-import '../../../reusable_widgets/app_textfield.dart';
-import '../../../reusable_widgets/custom_appbar.dart';
+import 'package:get/get_core/src/get_main.dart';
 
+import '../../../../constants/app_colors.dart';
+import '../../../../reusable_widgets/app_button.dart';
+import '../../../../reusable_widgets/app_textfield.dart';
+import '../../../../reusable_widgets/custom_appbar.dart';
 
-class UpdateParentProfile extends StatelessWidget {
-  const UpdateParentProfile({Key? key}) : super(key: key);
+class ChangePassword extends StatelessWidget {
+  const ChangePassword({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
-    final controller = Get.put(UpdateParentProfileController());
+    final controller = Get.put(ChangePasswordController());
     return Scaffold(
-      appBar: const CustomAppBar(title: 'Update Profile'),
+      appBar: const CustomAppBar(title: "Change Password"),
       body: Obx(() {
-        return controller.isLoading.value
+        return  controller.isLoading.value
             ? const Center(
           child: CircularProgressIndicator(),
         )
@@ -28,7 +28,7 @@ class UpdateParentProfile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const SizedBox(
-                  height: 20
+                height: 20,
               ),
               const SizedBox(height: 10),
               Form(
@@ -36,49 +36,41 @@ class UpdateParentProfile extends StatelessWidget {
                   child: Column(
                     children: [
                       CustomTextFormField(
-                        label: AppStrings.FULL_NAME,
-                        controller: controller.nameC,
+                        label: "Old Password",
+                        controller: controller.oldPassword,
+                        hintText: "Old Password",
                         keyboardType: TextInputType.text,
                         validator: (value) {
                           if (value == null || value.isEmpty) {
-                            return AppStrings.ENTER_NAME;
+                            return 'Please enter your old Password';
                           }
                           return null;
                         },
                       ),
                       CustomTextFormField(
-                        label: AppStrings.CNIC,
-                        // maxLength: 13,
-                        controller: controller.cnicC,
-                        keyboardType: TextInputType.number,
+                        label: "New Password",
+                        controller: controller.newPassword,
+                        keyboardType: TextInputType.text,
                         validator: (value) {
                           if (value == null || value.isEmpty) {
-                            return AppStrings.ENTER_CNIC;
-                          } else if (value.length > 13 ||
-                              value.length < 13) {
-                            return AppStrings.ENTER_VALID_CNIC;
+                            return 'Please enter your new Password';
+                          } else if (value.length > 8) {
+                            return 'Password should be 8 digits';
                           }
                           return null;
                         },
                       ),
                       CustomTextFormField(
-                        label: AppStrings.ADDRESS,
-                        controller: controller.addressC,
+                        label: "Confirm Password",
+                        controller: controller.confirmPassword,
                         keyboardType: TextInputType.text,
                         validator: (value) {
                           if (value == null || value.isEmpty) {
-                            return AppStrings.ENTER_ADDRESS;
-                          }
-                          return null;
-                        },
-                      ),
-                      CustomTextFormField(
-                        label: AppStrings.PHONE,
-                        controller: controller.phnC,
-                        keyboardType: TextInputType.text,
-                        validator: (value) {
-                          if (value == null || value.isEmpty) {
-                            return AppStrings.ENTER_PHONE;
+                            return 'Please enter confirm Password';
+                          } else if (value.length > 8) {
+                            return 'Password should be 8 digits';
+                          } else if (value != controller.newPassword.text) {
+                            return "Password do not match";
                           }
                           return null;
                         },
@@ -89,8 +81,10 @@ class UpdateParentProfile extends StatelessWidget {
                   height: 50,
                   width: width / 1.3,
                   child: AppButton(
-                    label: 'Save',
-                    onPressed: () => controller.validate(),
+                    label: "Change Password",
+                    onPressed: () {
+                      controller.validate();
+                    },
                     color: AppColors.primaryColor,
                     elevation: 2,
                     borderColor: AppColors.primaryWhite,
@@ -98,8 +92,8 @@ class UpdateParentProfile extends StatelessWidget {
               const SizedBox(
                 height: 20,
               )
-            ],
-          ),
+            ]
+          )
         );
       }),
     );

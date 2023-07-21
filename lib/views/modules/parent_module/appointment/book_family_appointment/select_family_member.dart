@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/local_storage.dart';
-import '../../../../reusable_widgets/sub_heading.dart';
+import '../../../../../constants/app_colors.dart';
+import '../../../../../constants/local_storage.dart';
+import '../../../../../reusable_widgets/sub_heading.dart';
 
 class SelectFamilyMember extends StatelessWidget {
   const SelectFamilyMember({Key? key}) : super(key: key);

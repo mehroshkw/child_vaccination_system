@@ -1,14 +1,14 @@
-import 'package:child_vaccination_system/controllers/add_family_member_controller.dart';
+import 'package:child_vaccination_system/views/modules/parent_module/child/add_child/add_family_member_controller.dart';
 import 'package:child_vaccination_system/reusable_widgets/app_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import '../../../../constants/app_colors.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../controllers/update_child_controller.dart';
-import '../../../../reusable_widgets/app_button.dart';
-import '../../../../reusable_widgets/custom_appbar.dart';
-import '../../../../reusable_widgets/progress_indicator.dart';
+import '../../../../../constants/app_colors.dart';
+import '../../../../../constants/app_strings.dart';
+import 'update_child_controller.dart';
+import '../../../../../reusable_widgets/app_button.dart';
+import '../../../../../reusable_widgets/custom_appbar.dart';
+import '../../../../../reusable_widgets/progress_indicator.dart';
 
 class UpdateChild extends StatefulWidget {
   final String genderC;

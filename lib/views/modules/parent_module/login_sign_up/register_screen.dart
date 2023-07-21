@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../constants/app_colors.dart';
 import '../../../../constants/app_strings.dart';
-import '../../../../controllers/auth_controller.dart';
+import '../../auth_controller.dart';
 import '../../../../reusable_widgets/app_button.dart';
 import '../../../../reusable_widgets/app_textfield.dart';
 import '../../../../reusable_widgets/custom_appbar.dart';

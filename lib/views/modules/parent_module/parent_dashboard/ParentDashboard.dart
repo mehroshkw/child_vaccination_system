@@ -1,14 +1,15 @@
-import 'package:child_vaccination_system/views/modules/parent_module/appointment/book_family_appointment.dart';
-import 'package:child_vaccination_system/views/modules/parent_module/update_parent_profile.dart';
+import 'package:child_vaccination_system/views/modules/parent_module/appointment/book_family_appointment/book_family_appointment.dart';
+import 'package:child_vaccination_system/views/modules/parent_module/update_parent_profile/update_parent_profile.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../constants/app_colors.dart';
-import '../../../constants/local_storage.dart';
-import '../../../controllers/auth_controller.dart';
-import '../../../reusable_widgets/sub_heading.dart';
-import 'child_add_update_delete/add_family_members.dart';
-import 'child_add_update_delete/edit_child.dart';
+import '../../../../constants/app_colors.dart';
+import '../../../../constants/local_storage.dart';
+import '../../auth_controller.dart';
+import '../../../../reusable_widgets/sub_heading.dart';
+import '../child/add_child/add_family_members.dart';
+import '../child/edit_delete_child/update_child.dart';
+
 
 class ParentDashboard extends StatefulWidget {
   const ParentDashboard({Key? key}) : super(key: key);

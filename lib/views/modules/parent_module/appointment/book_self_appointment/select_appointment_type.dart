@@ -2,10 +2,11 @@ import 'package:child_vaccination_system/constants/app_colors.dart';
 import 'package:child_vaccination_system/constants/app_images.dart';
 import 'package:child_vaccination_system/reusable_widgets/app_button.dart';
 import 'package:child_vaccination_system/reusable_widgets/custom_appbar.dart';
-import 'package:child_vaccination_system/views/modules/parent_module/appointment/book_family_appointment.dart';
-import 'package:child_vaccination_system/views/modules/parent_module/appointment/book_self_appointment.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../book_family_appointment/book_family_appointment.dart';
+import 'book_self_appointment.dart';
 
 class AppointmentType extends StatelessWidget {
   const AppointmentType({Key? key}) : super(key: key);

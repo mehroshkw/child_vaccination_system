@@ -1,13 +1,13 @@
 import 'package:child_vaccination_system/views/main_screen/main_screen.dart';
-import 'package:child_vaccination_system/views/modules/hospital_module/hospital_dashboard.dart';
-import 'package:child_vaccination_system/views/modules/parent_module/ParentDashboard.dart';
+import 'package:child_vaccination_system/views/modules/hospital_module/hospital_dashboard/hospital_dashboard.dart';
+import 'package:child_vaccination_system/views/modules/parent_module/parent_dashboard/ParentDashboard.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../constants/app_strings.dart';
-import '../constants/const_function.dart';
-import '../constants/local_storage.dart';
-import '../views/modules/admin_module/adminDashborad.dart';
+import '../../constants/app_strings.dart';
+import '../../reusable_widgets/const_function.dart';
+import '../../constants/local_storage.dart';
+import 'admin_module/admin_dashboard/adminDashborad.dart';
 
 class AuthController extends GetxController {
   var isLoading = false.obs;

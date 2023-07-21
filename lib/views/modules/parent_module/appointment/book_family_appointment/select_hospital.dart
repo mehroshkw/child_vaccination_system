@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../constants/app_colors.dart';
+import '../../../../../constants/app_colors.dart';
 
 class SelectHospital extends StatelessWidget {
   const SelectHospital({Key? key}) : super(key: key);

@@ -1,12 +1,12 @@
-import 'package:child_vaccination_system/controllers/hospital_dashboard_controller.dart';
-import 'package:child_vaccination_system/views/modules/hospital_module/update_hospital_profile.dart';
+import 'package:child_vaccination_system/views/modules/hospital_module/hospital_dashboard/hospital_dashboard_controller.dart';
+import 'package:child_vaccination_system/views/modules/hospital_module/update_hospital_profile/update_hospital_profile.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../constants/app_colors.dart';
-import '../../../constants/local_storage.dart';
-import '../../../controllers/auth_controller.dart';
+import '../../../../constants/app_colors.dart';
+import '../../../../constants/local_storage.dart';
+import '../../auth_controller.dart';
 
 class HospitalDashboard extends StatefulWidget {
   const HospitalDashboard({Key? key}) : super(key: key);

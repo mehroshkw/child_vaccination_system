@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 
-import '../constants/local_storage.dart';
+import '../../../../constants/local_storage.dart';
 
 class AdminDashboardController extends  GetxController{
   var isApproved = false.obs;

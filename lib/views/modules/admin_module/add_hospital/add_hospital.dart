@@ -1,11 +1,11 @@
-import 'package:child_vaccination_system/controllers/add_hospital_controller.dart';
+import 'package:child_vaccination_system/views/modules/admin_module/add_hospital/add_hospital_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../constants/app_colors.dart';
-import '../../../constants/app_strings.dart';
-import '../../../reusable_widgets/app_button.dart';
-import '../../../reusable_widgets/custom_appbar.dart';
-import '../../../reusable_widgets/progress_indicator.dart';
+import '../../../../constants/app_colors.dart';
+import '../../../../constants/app_strings.dart';
+import '../../../../reusable_widgets/app_button.dart';
+import '../../../../reusable_widgets/custom_appbar.dart';
+import '../../../../reusable_widgets/progress_indicator.dart';
 
 class AddHospitalScreen extends StatefulWidget {
   const AddHospitalScreen({Key? key}) : super(key: key);

@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:uuid/uuid.dart';
 
-import '../constants/const_function.dart';
-import '../constants/local_storage.dart';
+import '../../../../../reusable_widgets/const_function.dart';
+import '../../../../../constants/local_storage.dart';
 
 class BookFamilyAppointmentController extends GetxController{
   var isLoading = false.obs;

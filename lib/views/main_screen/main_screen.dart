@@ -2,7 +2,7 @@ import 'package:child_vaccination_system/constants/app_colors.dart';
 import 'package:child_vaccination_system/reusable_widgets/app_button.dart';
 import 'package:child_vaccination_system/reusable_widgets/custom_appbar.dart';
 import 'package:child_vaccination_system/views/modules/admin_module/admin_login.dart';
-import 'package:child_vaccination_system/views/modules/hospital_module/hospital_login.dart';
+import 'package:child_vaccination_system/views/modules/hospital_module/hospital_login/hospital_login.dart';
 import 'package:child_vaccination_system/views/modules/parent_module/login_sign_up/parent_login.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

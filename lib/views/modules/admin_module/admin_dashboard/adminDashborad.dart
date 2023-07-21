@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../constants/app_colors.dart';
-import '../../../controllers/admin_deshboard_controller.dart';
-import '../../../controllers/auth_controller.dart';
-import '../../../reusable_widgets/sub_heading.dart';
-import 'add_hospital.dart';
+import '../../../../constants/app_colors.dart';
+import 'admin_deshboard_controller.dart';
+import '../../auth_controller.dart';
+import '../../../../reusable_widgets/sub_heading.dart';
+import '../add_hospital/add_hospital.dart';
 
 class AdminDashboard extends StatefulWidget {
   const AdminDashboard({Key? key}) : super(key: key);
