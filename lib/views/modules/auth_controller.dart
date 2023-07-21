@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 import '../../constants/app_strings.dart';
 import '../../constants/local_storage.dart';
 import '../reusable_widgets/const_function.dart';
-import 'admin_module/admin_dashboard/adminDashborad.dart';
+import 'admin_module/admin_dashboard/admin_dashborad.dart';
 
 class AuthController extends GetxController {
   var isLoading = false.obs;

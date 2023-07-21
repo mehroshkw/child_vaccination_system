@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import '../constants/app_images.dart';
 import '../constants/local_storage.dart';
 import 'main_screen.dart';
-import 'modules/admin_module/admin_dashboard/adminDashborad.dart';
+import 'modules/admin_module/admin_dashboard/admin_dashborad.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
