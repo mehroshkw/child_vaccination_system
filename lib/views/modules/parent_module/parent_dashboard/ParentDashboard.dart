@@ -1,4 +1,5 @@
 import 'package:child_vaccination_system/views/modules/parent_module/appointment/book_family_appointment/book_family_appointment.dart';
+import 'package:child_vaccination_system/views/modules/parent_module/reminder/reminder_screen.dart';
 import 'package:child_vaccination_system/views/modules/parent_module/update_parent_profile/update_parent_profile.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -42,6 +43,7 @@ class _ParentDashboardState extends State<ParentDashboard> with SingleTickerProv
 
   @override
   Widget build(BuildContext context) {
+    String email = LocalStorage.getString("email");
     return Scaffold(
       appBar: AppBar(
         backgroundColor: AppColors.primaryColor,
@@ -49,6 +51,7 @@ class _ParentDashboardState extends State<ParentDashboard> with SingleTickerProv
           "Parents Dashboard",
         ),
         actions: [
+          IconButton(onPressed: () => Get.to(ReminderScreen(email: email)), icon: const Icon(Icons.notifications_active_outlined)),
           IconButton(onPressed: () => Get.to(const UpdateParentProfile()), icon: const Icon(Icons.person_outline)),
           IconButton(onPressed: () => authController.logoutUser(), icon: const Icon(Icons.logout))
         ],
