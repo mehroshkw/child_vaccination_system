@@ -41,3 +41,7 @@ Tools, Languages and APIs used:
 •	Android Development Studio
 •	FireBase Cloud Database
 •	Java/Kotlin, XML, Flutter 
+
+![ScreenShot](https://github.com/mehroshkw/child_vaccination_system/blob/master/Blue%20Modern%20New%20App%20Announcement%20Facebook%20Cover.png)
+
+
