@@ -46,30 +46,4 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCvQq_3W_GFKNcWssi9_mST9mS3cMFAI7E',
-    appId: '1:106316614297:web:7731b1c5fd2d78cd508608',
-    messagingSenderId: '106316614297',
-    projectId: 'child-vaccination-system',
-    authDomain: 'child-vaccination-system.firebaseapp.com',
-    storageBucket: 'child-vaccination-system.appspot.com',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCj2_JLOhYArMrla4EJekVU1MVEE6wcXfQ',
-    appId: '1:106316614297:android:328ef0ac5ab1981b508608',
-    messagingSenderId: '106316614297',
-    projectId: 'child-vaccination-system',
-    storageBucket: 'child-vaccination-system.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAs_wARGzzF3a7sw4se3HE_A09qCOZELBQ',
-    appId: '1:106316614297:ios:4d68894015c86f19508608',
-    messagingSenderId: '106316614297',
-    projectId: 'child-vaccination-system',
-    storageBucket: 'child-vaccination-system.appspot.com',
-    iosClientId: '106316614297-rcn4lcj4il3bsq1nno1npsl2v3fj47t0.apps.googleusercontent.com',
-    iosBundleId: 'com.example.childVaccinationSystem',
-  );
-}
+/// keys of firebase
